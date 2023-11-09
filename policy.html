@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="scooty, rental, electric, smart scooter, elctric scooter, doorstep, hostel, pg" />
+  <meta name="description" content="" />
+  <meta name="author" content="Shrutika, Shubham" />
+
+  <title>Smartify You</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+    });
+  </script> 
+
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <div id="header"></div>
+  </div>
+  <section id="about" class="about_section">
+    <div class="container">
+      <div class="row">
+        <div class="">
+          <div class="detail-box col-lg-6 col-md-6 mx-auto mt-5">
+            <h2>
+              Privacy Policy
+            </h2>
+            <p>
+              Smartifyou is committed to protecting the privacy of our users. This privacy policy explains how we collect, use, and
+              share your personal information.
+            </p>
+            <h4>
+              What personal information do we collect?
+            </h4>
+            <p>
+              We collect personal information from you when you create an account, book an EV scooter rental, or contact us for
+              support. The personal information we collect may include your name, email address, phone number, payment information,
+              and location data.
+            </p>
+            <h4>
+              How do we use your personal information?
+            </h4>
+            <p>
+              We use your personal information to provide you with our services, to communicate with you about your bookings, and to
+              improve our services. We may also use your personal information to send you marketing and promotional materials, but you
+              can opt out of receiving these materials at any time.
+            </p>
+            <h4>
+              How do we share your personal information?
+            </h4>
+            <p>
+              We share your personal information with third-party service providers who help us to provide our services. For example,
+              we share your payment information with our payment processor and your location data with our scooter tracking system. We
+              also share your personal information with law enforcement or other government agencies if required by law.
+            </p>
+            <h4>
+              How do we protect your personal information?
+            </h4>
+            <p>
+              We take reasonable steps to protect your personal information from unauthorised access, use, or disclosure. We use
+              industry-standard security measures, such as encryption and firewalls, to protect your personal information. We also
+              train our employees on how to protect your personal information.
+            </p>
+            <h4>
+              How long do we retain your personal information?
+            </h4>
+            <p>
+              We retain your personal information for as long as necessary to provide you with our services and to comply with our
+              legal obligations. We may also retain your personal information for a longer period of time if we have a legitimate
+              business interest in doing so, such as preventing fraud or improving our services.
+            </p>
+            <h4>
+              Your choices
+            </h4>
+            <p>
+              You have the right to access, correct, or delete your personal information. You also have the right to restrict or
+              object to our processing of your personal information. To exercise any of these rights, please contact us at [email
+              protected]
+            </p>
+            <h4>
+              Changes to this privacy policy
+            </h4>
+            <p>
+              We may update this privacy policy from time to time. If we make any changes to this privacy policy, we will post the updated privacy policy on our website.
+            </p>
+            <h4>
+              Contact us
+            </h4>
+            <p>
+              If you have any questions about this privacy policy, please contact us at info.smartifyyou@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+  <!-- footer section -->
+  <div id="footer"></div>
+  <!-- end footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script> -->
+  <!-- End Google Map -->
+    <script>
+    function submitForm() {
+      // Check if all required fields are filled
+      if (document.forms[0].checkValidity()) {
+        // Disable the submit button and change its appearance
+        document.getElementById('submit-button').disabled = true;
+        document.getElementById('submit-button').classList.add('disabled-button');
+        document.getElementById('submit-button').innerHTML = '&check;'
+        // Prevent redirection to the API
+        return false;
+      }
+      return true; // Continue with form submission if validation fails
+    }
+  </script>
+
+
+</body>
+
+</html>

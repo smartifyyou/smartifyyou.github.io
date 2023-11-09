@@ -338,7 +338,7 @@ a:focus {
   display: flex;
 }
 
-.feature_section .feature_container .box {
+.feature_container .box {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -363,12 +363,12 @@ a:focus {
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
-.feature_section .feature_container .box .img-box {
+.feature_container .box .img-box {
   width: 90px;
   height: 90px;
 }
 
-.feature_section .feature_container .box .img-box svg {
+.feature_container .box .img-box svg {
   width: 100%;
   height: auto;
   max-height: 100%;
@@ -377,27 +377,27 @@ a:focus {
   transition: all 0.3s;
 }
 
-.feature_section .feature_container .box .img-box svg path {
+.feature_container .box .img-box svg path {
   fill: #726dae;
 }
 
-.feature_section .feature_container .box .name {
+.feature_container .box .name {
   margin-top: 20px;
   text-transform: uppercase;
   font-family: 'Merriweather Sans', sans-serif;
   margin-bottom: 0;
 }
 
-.feature_section .feature_container .box:hover, .feature_section .feature_container .box.active {
+.feature_container .box:hover, .feature_container .box.active {
   background-color: #ff8a1d;
   color: #ffffff;
 }
 
-.feature_section .feature_container .box:hover .img-box svg, .feature_section .feature_container .box.active .img-box svg {
+.feature_container .box:hover .img-box svg, .feature_container .box.active .img-box svg {
   fill: #ffffff;
 }
 
-.feature_section .feature_container .box:hover .img-box svg path, .feature_section .feature_container .box.active .img-box svg path {
+.feature_container .box:hover .img-box svg path, .feature_container .box.active .img-box svg path {
   fill: #ffffff;
 }
 
@@ -683,7 +683,7 @@ a:focus {
 }
 
 .contact_section input.message-box {
-  height: 135px;
+  height: 80px;
 }
 
 .contact_section button {
@@ -839,6 +839,25 @@ a:focus {
 .disabled-button {
   background-color: green !important;
   cursor: not-allowed;
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: ">";
+    /* font-family: "Font Awesome 5 Free"; */
+    font-weight: 900;
+    margin-right: 10px;
 }
 
 /* end footer section*/
