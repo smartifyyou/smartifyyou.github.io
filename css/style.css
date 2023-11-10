@@ -79,7 +79,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #d1e3ff;
+  background-color: white;
 }
 
 .header_section .container-fluid {
@@ -278,6 +278,9 @@ a:focus {
           align-items: center;
   background-size: cover;
   background-position: bottom;
+  /* background-color: #0a0f43; */
+  background: linear-gradient(to right, #000000 0%, #0a0f43 72%);
+
 }
 
 .slider_section .row {
@@ -327,10 +330,10 @@ a:focus {
   width: 100%;
 }
 
-.feature_section {
+/* .feature_section {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-}
+} */
 
 .feature_section .feature_container {
   display: -webkit-box;
@@ -388,7 +391,7 @@ a:focus {
   margin-bottom: 0;
 }
 
-.feature_container .box:hover, .feature_container .box.active {
+.feature_container .box.active {
   background-color: #ff8a1d;
   color: #ffffff;
 }
